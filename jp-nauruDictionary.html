@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ナウル語-日本語辞書">
+    <title>ナウル語-日本語辞書</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        ul { list-style-type: none; padding: 0; }
+        li { padding: 8px 0; border-bottom: 1px solid #ddd; }
+        li span { font-weight: bold; }
+        .table { font-size: 2em; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>ナウル語-日本語辞書</h1>
+    <p><span style="font-size: 0.8em;">※ナウル語は参考資料が少ないため情報が正確でない可能性があります。</span></p>
+    <br/>
+    <input type="text" id="searchInput" placeholder="ナウル語を検索...">
+    <ol id="box">
+        <li><a href="#conversation">基本的な会話集</a></li>
+        <li><a href="#number">数字</a></li>
+        <li><a href="#time">時間・日付</a></li>
+        <li><a href="#word">基本的な単語集</a></li>
+    </ol>
+    <ul id="dictionaryList">
+        <div id="conversation"><span class="table"> 基本的な会話集</span></div>
+            <br/>
+            <li><span>Eh / Ehm:</span> はい</li>
+            <li><span>Keo:</span> いいえ</li>
+            <li><span>Omo yoran:</span> おはようございます</li>
+            <li><span>Ekamawir Omo:</span> こんにちは(いつでも)</li>
+            <li><span>Omo yekwo:</span> こんにちは</li>
+            <li><span>Omo yubum:</span> こんばんは</li>
+            <li><span>Ekamowir:</span> やぁ</li>
+            <li><span>Ibibogi aga yeduw</span> 初めまして</li>
+            <li><span>Tubwa:</span> ありがとう</li>
+            <li><span>Tubwa kor:</span> ありがとうございます</li>
+            <li><span>Ead aeo dura</span> ごめんなさい</li>
+            <li><span>Tarawong:</span> さようなら</li>
+            <li><span>Omo mimi</span> おやすみなさい</li>
+            <li><span>Wo reit ed / Reit ed awe:</span> 元気ですか</li>
+            <li><span>Omo anga:</span> 元気です</li>
+            <li><span>Ipuok</span> 助けて</li>
+            <li><span>Mangada:</span> お願いします</li>
+            <li><span>Dorerin aiyuk iburbur awe?</span> 英語は話せますか</li>
+            <li><span>Awe amen e?:</span> どこから来ましたか</li>
+            <li><span>Anga dei Naoero:</span> 私はナウル人です</li>
+            <li><span>Yen egom?:</span> 名前は何ですか</li>
+            <li><span>Anga kor -</span> 私の名前は-</li>
+            <li><span>Wo meg i?:</span> どこに住んでいますか</li>
+            <li><span>Mo towom:</span> 良い旅を</li>
+            <li><span>Ang nuwawen:</span> 行きましょう</li>
+            <li><span>Wawen ee?:</span> どこに行くの</li>
+            <li><span>Metu ko:</span> 入ってください</li>
+            <li><span>Eko eado:</span> 絶対あきらめないで</li>
+            <li><span>Inga mark?:</span> お金はどこですか</li>
+            <li><span>Nga ebonu:</span> 愛しています</li>
+            <br/>
+            <br/>
+        <div id="number"><span class="table"> 数字</span></div>
+            <br/>
+            <li><span>aiquen:</span> 1</li>
+            <li><span>aro:</span> 2</li>
+            <li><span>aiju:</span> 3</li>
+            <li><span>aeoq:</span> 4</li>
+            <li><span>aijimo:</span> 5</li>
+            <li><span>ango:</span> 6</li>
+            <li><span>aeiu:</span> 7</li>
+            <li><span>ajou:</span> 8</li>
+            <li><span>ado:</span> 9</li>
+            <li><span>ata:</span> 10</li>
+            <li><span>ata ma aiquen:</span> 11</li>
+            <li><span>ata ma aro:</span> 12</li>
+            <li><span>ata ma aiju:</span> 13</li>
+            <li><span>ata ma aeoq:</span> 14</li>
+            <li><span>ata ma aijimo:</span> 15</li>
+            <li><span>ata ma ango:</span> 16</li>
+            <li><span>ata ma aeiu:</span> 17</li>
+            <li><span>ata ma aoju:</span> 18</li>
+            <li><span>ata ma ado:</span> 19</li>
+            <li><span>anarama:</span> 20</li>
+            <li><span>anarama ma aiquen:</span> 21</li>
+            <li><span>animo:</span> 30</li>
+            <li><span>ama:</span> 40</li>
+            <li><span>aijim:</span> 50</li>
+            <li><span>angama:</span> 60</li>
+            <li><span>aemo:</span> 70</li>
+            <li><span>aojomo:</span> 80</li>
+            <li><span>aduma:</span> 90</li>
+            <li><span>aibu:</span> 100</li>
+            <li><span>arobu:</span> 200</li>
+            <li><span>aijubu:</span> 300</li>
+            <li><span>aranga:</span> 1,000</li>
+            <li><span>ata erangan:</span> 10,000</li>
+            <li><span>aibu erangan:</span> 100,000</li>
+            <li><span>aranga erangan:</span> 1,000,000</li>
+            <br/>
+            <br/>
+        <div id="time"><span class="table"> 時間・日付</span></div>
+            <br/>
+            <li><span>yoran:</span> 朝</li>
+            <li><span>yekwo:</span> 昼/正午</li>
+            <li><span>yemero:</span> 夕方</li>
+            <li><span>yubum:</span> 夜</li>
+            <li><span>tugagan:</span> 真夜中</li>
+            <li><span>eiquon kurak:</span> 1時</li>
+            <li><span>Aro kurak:</span> 2時</li>
+            <li><span>ngage:</span> 今</li>
+            <li><span>yan obun:</span> 前</li>
+            <li><span>ngaga:</span> 後</li>
+            <li><span>ibum:</span> 日</li>
+            <li><span>maramen:</span> 月</li>
+            <li><span>yobeni:</span> 年</li>
+            <li><span>ngabumine:</span> 今日</li>
+            <li><span>nene:</span> 昨日</li>
+            <li><span>yaran:</span> 明日</li>
+            <li><span>tondak:</span> 日曜日</li>
+            <li><span>mondak:</span> 月曜日</li>
+            <li><span>rindak:</span> 火曜日</li>
+            <li><span>mituwok:</span> 水曜日</li>
+            <li><span>donertak:</span> 木曜日</li>
+            <li><span>preidak:</span> 金曜日</li>
+            <li><span>tarere:</span> 土曜日</li>
+            <br/>
+            <br/>
+        <div id="word"><span class="table"> 基本的な単語集</span></div>
+            <br/>
+            <li><span>tangang:</span> 黒</li>
+            <li><span>burbur:</span> 白</li>
+            <li><span>badeitsi:</span> グレー</li>
+            <li><span>Mirara:</span> 赤</li>
+            <li><span>Ajitabwa:</span> 青</li>
+            <li><span>bababo:</span> 黄</li>
+            <li><span>aditur:</span> 緑</li>
+            <li><span>Kaura:</span> オレンジ</li>
+            <li><span>Narabo:</span> 紫</li>
+            <li><span>Miraro:</span> ピンク</li>
+            <li><span>omo:</span> 良い</li>
+            <li><span>baka:</span> 悪い</li>
+            <li><span>ita:</span> 美味しい</li>
+            <li><span>Nauru / Naoero:</span> ナウル</li>
+            <li><span>Dabug mem:</span> 可愛い/かっこいい</li>
+            <li><span>Dango awe:</span> 私の友人</li>
+            <li><span>Wanga eawe:</span> 私の愛する人</li>
+            <li><span>me:</span> そして</li>
+            <li><span>Eko dogin:</span> 永遠に</li>
+            <li><span>Tameg:</span> 留まる</li>
+            <li><span>Oyo:</span> 強い</li>
+            <li><span>Gott:</span> 神</li>
+            <li><span>Gewin:</span> 終わり</li>
+            <li><span>Eko woun:</span> 関係ない</li>
+    </ul>
+
+    <a href="#">最上部へ戻る</a>
+
+    <script>
+        const searchInput = document.getElementById("searchInput");
+        const dictionaryList = document.getElementById("dictionaryList");
+        searchInput.addEventListener("input", function() {
+            const filter = searchInput.value.toLowerCase();
+            const items = dictionaryList.getElementsByTagName("li");
+
+            for (const item of items) {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(filter) ? "" : "none";
+            }
+        });
+    </script>
+</body>
+</html>
